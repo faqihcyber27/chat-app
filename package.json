@@ -6,8 +6,7 @@
     "dev": "next dev",
     "build": "next build",
     "start": "next start",
-    "lint": "next lint",
-    "vercel": "./vercel-submodule-workaround.sh && yarn --ignore-scripts --production=false"
+    "lint": "next lint"
   },
   "dependencies": {
     "axios": "^1.3.4",
