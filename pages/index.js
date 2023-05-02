@@ -13,7 +13,7 @@ const Auth = () => {
     axios.put(
       "https://api.chatengine.io/users/",
       { username, secret },
-      { headers: { "Private-Key": "5c6c5fef-00c9-44cb-a1b0-5e07b9b0ec53" }}
+      { headers: { "Private-Key": "38bf5c6d-40c5-4244-9c2a-c6f691768100" }}
     )
     .then((r) => {
       router.push("/chats");
